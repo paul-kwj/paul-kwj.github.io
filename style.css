@@ -1,0 +1,168 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,700italic,800);
+ body, html {
+	 margin: 0;
+	 padding: 0;
+	 width: 100%;
+	 height: 100%;
+}
+ header ul {
+	 list-style: none;
+	 text-align: center;
+}
+ header ul li {
+	 display: inline-block;
+	 height: 50px;
+	 width: 80px;
+	 text-align: center;
+	 font-family: "open sans";
+	 line-height: 48px;
+	 padding: 0 20px 0 20px;
+}
+ header ul li:hover {
+	 background-color: #2d898b;
+	 color: #c1dff0;
+	 cursor: pointer;
+}
+ header ul li.current {
+	 background-color: #2d898b;
+	 color: #c1dff0;
+}
+ #slides {
+	 height: calc(100% - 100px);
+	 width: 100%;
+}
+ #slides nav {
+	 font-size: 3em;
+	 position: absolute;
+	 left: 47%;
+	 top: 70%;
+	 color: #c1dff0;
+	 z-index: 100;
+	 margin-top: 50px;
+}
+ #slides nav i {
+	 cursor: pointer;
+	 opacity: 0.2;
+	 transition: all 0.5s;
+}
+ #slides .slide {
+	 width: 100%;
+	 height: 100%;
+	 transition: transform 1s;
+	 font-family: "open sans";
+	 color: #c1dff0;
+	 text-align: center;
+}
+ #slides .slide h1 {
+	 font-size: 50px;
+	 font-weight: 500;
+	 padding-top: 20px;
+}
+ #slides .slide0 {
+	 background: #011a27;
+	 position: relative;
+}
+ #slides .slide0 #title {
+	 position: relative;
+	 top: 24%;
+}
+ #slides .slide0 #title h1 {
+	 text-align: center;
+	 color: #c1dff0;
+	 font-size: 100px;
+	 font-family: "Open sans";
+	 padding: 10px;
+	 font-weight: 500;
+	 padding-top: 0;
+}
+ #slides .slide0 #title h2 {
+	 text-align: center;
+	 color: #c1dff0;
+	 font-size: 50px;
+	 font-family: "Open sans";
+	 font-weight: 100;
+}
+ #slides .slide1 {
+	 display: none;
+	 background-color: #193f4d;
+	 color: #c1dff0;
+}
+ #slides .slide1 p {
+	 padding: 20px;
+	 font-size: 20px;
+	 line-height: 40px;
+}
+ #slides .slide2 {
+	 display: none;
+	 background-color: #063852;
+}
+ #slides .slide2 h2 {
+	 font-size: 20px;
+	 margin-top: 15px;
+	 font-weight: 100;
+}
+ #slides .slide2 #canvas {
+	 background: #2d898b;
+	 margin: 0;
+	 float: left;
+	 margin-left: 20px;
+}
+ #slides .slide2 img {
+	 float: right;
+	 margin-right: 20px;
+	 width: 500px;
+	 height: 400px;
+}
+ #slides .slide3 {
+	 display: none;
+	 background-color: #23676c;
+}
+ #slides .slide3 h2 {
+	 padding-top: 20px;
+}
+ #slides .slide3 ul {
+	 list-style: none;
+	 padding-top: 50px;
+}
+ #slides .slide3 ul a {
+	 color: #c1dff0;
+	 text-decoration: none;
+}
+ #slides .slide3 li {
+	 font-size: 40px;
+	 font-weight: 100;
+	 padding: 10px;
+	 margin: 10px auto;
+	 border: 1px solid #c1dff0;
+	 border-radius: 10px;
+	 width: 300px;
+}
+ #slides .slide3 li:hover {
+	 background-color: rgba(201, 201, 201, 0.1);
+}
+ footer {
+	 height: 50px;
+	 width: 100%;
+	 text-align: center;
+	 font-family: "open sans";
+	 line-height: 48px;
+}
+ footer #footer-links {
+	 float: right;
+	 font-size: 30px;
+	 margin-right: 20px;
+}
+ footer #footer-links a {
+	 color: #000;
+}
+ footer #footer-links i {
+	 opacity: 0.3;
+}
+ footer #footer-links i:hover {
+	 opacity: 1;
+}
+ footer p {
+	 float: left;
+	 margin-left: 20px;
+}
+ 
